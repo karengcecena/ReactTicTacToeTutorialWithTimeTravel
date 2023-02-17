@@ -1,3 +1,15 @@
+# Tic-Tac-Toe: Coffee vs Tea With Time Travel
+
+## 📖 Summary 
+
+This is a project based on the React tutorial for tic-tac-toe. I spiced it up from regular tic-tac-toe by making it a competition between coffee & tea. Furthermore, this project incorporates time-travel, allowing users to go back to specific moves. 
+
+<br>
+
+![alt text](https://github.com/karengcecena/ReactTicTacToeTutorialWithTimeTravel/blob/main/src/TTTScreenshotTimeTravel.jpeg "Sample Game Screenshot")
+
+# React's Description of the Tic-Tac-Toe Tutorial
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
