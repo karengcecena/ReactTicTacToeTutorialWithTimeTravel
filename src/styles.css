@@ -6,6 +6,14 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  color: white;
+  background-image: url("https://images.pexels.com/photos/913807/pexels-photo-913807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-color: #06432d;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 h1 {
@@ -57,18 +65,18 @@ body {
 }
 
 .square {
-  background: #fff;
+  background: #5c7261;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 125px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 175px;
+  width: 175px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
 }
 
 .board-row:after {
@@ -77,14 +85,54 @@ body {
   display: table;
 }
 
+.title {
+  margin-bottom: 10px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.title > span {
+  background-color: rgb(6, 67, 45, 0.7); 
+  border-radius: 5%;
+}
+
 .status {
   margin-bottom: 10px;
+  font-size: 60px;
+  text-align: center;
 }
-.game {
-  display: flex;
-  flex-direction: row;
+
+.status > span {
+  background-color: rgb(6, 67, 45, 0.7); 
+  border-radius: 5%;
+}
+
+ol {
+  background-color: rgb(6, 67, 45, 0.7); 
+  border-radius: 5%;
+  width: 330px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.game-board {
+  margin: auto; 
+  padding-top: 2%;
 }
 
 .game-info {
-  margin-left: 20px;
+  padding-left: 17%;
+}
+
+.time-travel-button {
+  width: 250px;
+  height: 55px;
+  background-color:rgb(161, 185, 167);
+  font-size: 18px;
 }
